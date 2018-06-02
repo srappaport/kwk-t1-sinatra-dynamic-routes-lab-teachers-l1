@@ -36,7 +36,7 @@ class App < Sinatra::Base
       result = @n1 + @n2
     end
 
-    "#{result)""
+    "#{result}"
   end
 
 
