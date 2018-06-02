@@ -33,7 +33,7 @@ class App < Sinatra::Base
     @n2 = params[:number2].to_i
 
     if @op == +
-      puts @n1 + @n2
+      result = @n1 + @n2
     end
   end
 
