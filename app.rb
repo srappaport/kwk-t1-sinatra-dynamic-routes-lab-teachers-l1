@@ -35,6 +35,8 @@ class App < Sinatra::Base
     if @op == +
       result = @n1 + @n2
     end
+
+    "#{result)""
   end
 
 
