@@ -13,9 +13,9 @@ class App < Sinatra::Base
   end
 
   get '/say/:number/:phrase' do
-    "howdy"
+    
     @phrase = params[:phrase]
-    #@number=params[:number]
+    @number=params[:number]
     #count=0
     #{}"hello"
     #while count < 10
